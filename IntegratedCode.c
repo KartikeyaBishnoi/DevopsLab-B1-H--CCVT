@@ -326,6 +326,7 @@ int main()
 	int arr[100], N, i, x, low, high;
 
 	do {
+	    sleep(1);
 		printf("\n**********************************************************************");
 		printf("\nMenu:\n");
 		printf("1. Heap Sort\n");
@@ -340,8 +341,9 @@ int main()
 		scanf("%d", &choice);
 		switch (choice)
 		{
-		    sleep(1);
+		    
 			case 1:
+			sleep(1);
 				printf("Enter number of elements: ");
 				scanf("%d", &N);
 				printf("Enter elements: ");
@@ -352,7 +354,7 @@ int main()
 				printArray(arr, N);
 				break;
 			case 2:
-			
+			    sleep(1);
 				printf("Enter number of elements: ");
 				scanf("%d", &N);
 				printf("Enter elements: ");
@@ -411,6 +413,7 @@ int main()
 				printArray(arr, N);
 				break;
 			case 5:
+			sleep(1);
 				int internal_choice;
 				do { 
 				    sleep(1);
@@ -458,6 +461,7 @@ int main()
 
 				break;
 			case 6:
+			sleep(1);
 				printf("Enter number of elements: ");
 				scanf("%d", &N);
 				printf("Enter elements: ");
@@ -468,12 +472,15 @@ int main()
 				printArray(arr, N);
 				break;
 			case 7:
+			sleep(1);
 				processScheduling();
 				break;
 			case 8:
+			sleep(1);
 				printf("Exiting...\n");
 				break;
 			default:
+			sleep(1);
 				printf("Invalid choice!\n");
 		}
 	} while (choice != 8);
