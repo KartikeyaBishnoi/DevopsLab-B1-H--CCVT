@@ -1,6 +1,6 @@
 
-This is a collaborative project by Btech CSE CCVT B1(H) UPES'25 Batch 
-Under the guidance of Dr. Shirshendu Layek(Assistant Professor, School of Computer Science, UPES Dehradun)
+This is a collaborative project by **Btech CSE CCVT B1(H) UPES'25 Batch** 
+under the guidance of **Dr. Shirshendu Layek**(Assistant Professor, School of Computer Science, UPES Dehradun)
 
 ## Description
 
